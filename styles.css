@@ -39,6 +39,17 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: #328e6e;
+
+}
+.dropdown-content{
+    display: none;
+    position: relative;
+    background-color: #5a827e;
+    min-width: 150px;
+    padding: 10px 20px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
 }
 
 #hero{
