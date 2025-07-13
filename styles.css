@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Gabarito;
+    line-height: 1.2;
+    background-color: #bbd8a3
+
+}
+header{
+    background-color: #9ebc8a;
+    color: black;
+    padding: 20px 0;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+nav .logo{
+    font-size: 22px;
+    font-weight: bold;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #328e6e;
+}
+
+#hero{
+    background: #73946b;
+    color: black;
+    padding: 90px 20px;
+    text-align: center;
+    font-family: Parisienne;
+}
+#hero h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+#about, #portfolio, #contact{
+    padding: 40px 10px;
+    max-width: 500px;
+    margin: auto;
+}
+#about h2, #portfolio h2, #contact h2{
+    color: #5a827e;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: lower-roman;
+}
+.projects-card{
+    padding: 10px;
+    flex: 1 1 250px;
+}
+#contact{
+    color: #537d5d;
+    text-decoration: none;
+}
+#footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    max-width: 1000px;
+}
