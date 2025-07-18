@@ -1,0 +1,38 @@
+body{
+    /* https://grabient.com/HQFgbAHANMCsCcBmGEQho+YMEZnEVgAYNZtQQcMiSAmOEWqEYMRAdhjQiA?style=linearGradient&steps=8&angle=225 */
+
+background: linear-gradient(225deg, rgba(22, 99, 131, 1.000) 0.000%, rgba(35, 127, 126, 1.000) 14.286%, rgba(57, 158, 128, 1.000) 28.571%, rgba(85, 188, 136, 1.000) 42.857%, rgba(116, 212, 150, 1.000) 57.143%, rgba(148, 227, 168, 1.000) 71.429%, rgba(177, 231, 190, 1.000) 85.714%, rgba(200, 222, 214, 1.000) 100.000%)
+}
+.thelinks .active {
+  border-bottom: 2px solid #2d6a4f;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  background-color: transparent;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  color: black;
+}
+.logo {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.thelinks {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+.thelinks a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.thelinks .active {
+  border-bottom: 2px solid #2d6a4f;
+}

@@ -54,6 +54,7 @@ body{
 }
 .view-all{
     background-color: #333;
+    text-decoration: none;
     color: white;
     padding: 12px 20px;
     border-radius: 10px;
@@ -64,6 +65,10 @@ body{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.view-all a{
+    text-decoration: none;
+    color: white;
 }
 .project-grid{
     display: grid;
